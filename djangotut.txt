@@ -1,3 +1,7 @@
-django supus
+django supus on local db
 ydnam
 83gydnam
+
+django supus online db
+ydnam
+83.g.ydnam
