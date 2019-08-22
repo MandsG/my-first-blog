@@ -5,3 +5,10 @@ ydnam
 django supus online db
 ydnam
 83.g.ydnam
+
+https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+$ git commit -m "My incorrect edit that needs to be un-done"
+$ git reset HEAD~
+<< edit files as necessary >>
+$ git add ...
+$ git commit -c ORIG_HEAD
